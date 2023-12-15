@@ -54,6 +54,8 @@ pyplot.savefig("silhouette_score_gmm.png")
 pyplot.close()
 
 
+
+# kmedoids did not work well with the large dataset so i used 10000 observations to get an idea of its result. 
 test_data = dataset[:10000,:]
 
 def run_kmedoids(n, test_data):
