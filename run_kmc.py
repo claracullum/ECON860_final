@@ -4,7 +4,7 @@ from sklearn.cluster import KMeans
 from sklearn_extra.cluster import KMedoids
 from sklearn.metrics import silhouette_score
 
-dataset = pandas.read_csv("dataset_final.csv")
+dataset = pandas.read_csv("results.csv")
 dataset = dataset.values
 
 # scatterplot of data
